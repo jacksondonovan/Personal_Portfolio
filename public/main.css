@@ -1,0 +1,27 @@
+html, body{
+  min-height: 100%;
+}
+.middle{
+  display: flex;
+  flex-direction: row;
+}
+
+#gallery{
+  min-height: 100%;
+}
+
+h1{
+  color:blue;
+}
+table{
+  border: 5px solid black;
+  height:600px;
+}
+td{
+  border: 2px solid red;
+  height:250px;
+  width:100px;
+}
+img{
+  width:100%;
+}
