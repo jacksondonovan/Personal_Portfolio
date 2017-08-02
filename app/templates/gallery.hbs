@@ -2,14 +2,14 @@
       <div class="row col-sm-12 middle">
         <table class="col-sm-7">
           <tr>
-            <td ng-click="$ctrl.selectMB()"><img src="https://s-media-cache-ak0.pinimg.com/736x/6b/c6/39/6bc639dafa438beb9127bceb5092b1e4--music-boxes-ballerinas.jpg" alt=""></td>
-            <td ng-click="$ctrl.select46()"><img src="https://ih1.redbubble.net/image.24047052.4230/sticker,375x360-bg,ffffff.png" alt=""></td>
-            <td ng-click="$ctrl.selectCP()"><img src="https://code-pilot.herokuapp.com/images/code-pilot.png" alt=""></td>
+            <td ng-click="selectMB()"><img src="https://s-media-cache-ak0.pinimg.com/736x/6b/c6/39/6bc639dafa438beb9127bceb5092b1e4--music-boxes-ballerinas.jpg" alt=""></td>
+            <td ng-click="select46()"><img src="https://ih1.redbubble.net/image.24047052.4230/sticker,375x360-bg,ffffff.png" alt=""></td>
+            <td ng-click="selectCP()"><img src="https://code-pilot.herokuapp.com/images/code-pilot.png" alt=""></td>
           </tr>
           <tr>
-            <td ng-click="$ctrl.selectBJ()"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Poker-sm-214-Js.png" alt=""></td>
-            <td ng-click="$ctrl.selectTT()"><img src="https://previews.123rf.com/images/pozitiw/pozitiw1211/pozitiw121100152/16516172-Tic-tac-toe-Doodle-style-Stock-Vector.jpg" alt=""></td>
-            <td ng-click="$ctrl.select46()"><img src="http://cfile215.uf.daum.net/image/18237A554D9483681A05A6" alt=""></td>
+            <td ng-click="selectBJ()"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Poker-sm-214-Js.png" alt=""></td>
+            <td ng-click="selectTT()"><img src="https://previews.123rf.com/images/pozitiw/pozitiw1211/pozitiw121100152/16516172-Tic-tac-toe-Doodle-style-Stock-Vector.jpg" alt=""></td>
+            <td ng-click="select46()"><img src="http://cfile215.uf.daum.net/image/18237A554D9483681A05A6" alt=""></td>
           </tr>
         </table>
         <div class="col-sm-5">
@@ -17,19 +17,19 @@
             <h4>Project Details</h4>
             <div class="border">
               <h3>TITLE</h3>
-              <p>{{$ctrl.title}}</p>
-            </div>
-            <div class="border">
-              <h3>DATE</h3>
-              <p>2017</p>
+              <p>{{title}}</p>
             </div>
             <div class="border">
               <h3>STACK</h3>
-              <p>These projects will range from front-end to back-end applications.</p>
+              <p>{{stack}}</p>
             </div>
             <div class="border">
               <h3>DESCRIPTION</h3>
-              <p>{{$ctrl.description}}</p>
+              <p>{{description}}</p>
+            </div>
+            <div class="border">
+              <h3>View Live Site</h3>
+              <a href="{{link}}">{{link}}</a>
             </div>
           </div>
 
