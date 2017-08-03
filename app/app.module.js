@@ -13,6 +13,9 @@ var app = angular.module("app",["ngRoute"])
                        templateUrl: '/templates/contact.hbs',
                        controller: 'galcontroller'
                      })
+                     .otherwise({
+                       redirectTo: '/gallery'
+                     })
                  })
                  .controller('galcontroller', function($scope){
                    $scope.title = 'Select A Project'
@@ -21,7 +24,7 @@ var app = angular.module("app",["ngRoute"])
                    $scope.link = 'https://jackson-donovan-portfolio.herokuapp.com/'
                    $scope.selectMB = function(){
                      $scope.title = 'Music Box'
-                     $scope.description = 'A singer/song writer app that uses the Web Audio API. The Music Box was an idea I formed back in college.'
+                     $scope.description = 'A singer/song writer app that uses the Web Audio API. '
                      $scope.stack = 'AngularJS, Express, HBS, SQL'
                      $scope.link = 'the-music-box.herokuapp.com'
                    }
