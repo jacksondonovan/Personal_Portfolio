@@ -71,3 +71,18 @@ img{
 .lightbox img{
   height:400px;
 }
+.lightbox ul li{
+  list-style: none;
+}
+.quote{
+  display:flex;
+  justify-content: center;
+  margin-top: 20px;
+  height:200px;
+}
+.quote h3{
+  width:50%;
+}
+.titletitle{
+  text-decoration: underline;
+}
