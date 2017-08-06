@@ -86,3 +86,8 @@ img{
 .titletitle{
   text-decoration: underline;
 }
+.smalllogo{
+  width:35px;
+  height:35px;
+  margin-bottom: -10px;
+}
