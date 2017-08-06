@@ -42,7 +42,7 @@ var app = angular.module("app",["ngRoute"])
                    }
                    $scope.selectBJ = function(){
                      $scope.title = 'Blackjack'
-                     $scope.description = 'The popular card game. In Blackjack, players attempt to make their hand total reach, or get as close to, 21 as possible. If you go over 21, you lose. Similarly, if the dealer goes over 21, the dealer loses. Closest while remaining under 21 wins. This is my first ever website! Ever since I started learning code I knew that I wanted to program a game. Blackjack took a tremendous amount of logic. Luckily logic is my middle name. The cards were generated through a free Deck of Cards API, the rest was built with my most rudimentary understanding of Javascript and DOM manipulation. Play a few hands, see if you can reach the goal total.'
+                     $scope.description = 'In Blackjack, players attempt to make their hand total reach, or get as close to, 21 as possible. If you go over 21, you lose. Similarly, if the dealer goes over 21, the dealer loses. Closest while remaining under 21 wins. This is my first ever website! Ever since I started learning code I knew that I wanted to program a game. Blackjack took a tremendous amount of logic. Luckily logic is my middle name. The cards were generated through a free Deck of Cards API, the rest was built with my most rudimentary understanding of Javascript and DOM manipulation. Play a few hands, see if you can reach the goal total.'
                      $scope.stack = 'HTML, CSS, Javascript'
                      $scope.link = 'https://blackjack-game-128c2.firebaseapp.com/'
                    }
