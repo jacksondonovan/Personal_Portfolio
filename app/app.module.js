@@ -26,13 +26,13 @@ var app = angular.module("app",["ngRoute"])
                      $scope.title = 'Music Box'
                      $scope.description = 'A singer/song writer app that uses the Web Audio API. '
                      $scope.stack = 'AngularJS, Express, HBS, SQL'
-                     $scope.link = 'the-music-box.herokuapp.com'
+                     $scope.link = 'https://the-music-box.herokuapp.com'
                    }
                    $scope.selectCP = function(){
                      $scope.title = 'Code Pilot'
                      $scope.description = 'Teaching has always been rewarding for me. This project, with collaboration of two other developers, helps pair teachers and students who want to learn code. This is an important site for me personally because Ive had so many great mentors help me get through the harsh learning curve of back-end development. I had a lot of fun developing Code Pilot. Ill never forget this as the first time I implemented web sockets into a project. Using a chat app that I developed myself legitimately gave me goose bumps.'
                      $scope.stack = 'Web Sockets, HBS, jQuery Transitions, Express, SQL'
-                     $scope.link = 'code-pilot.herokuapp.com'
+                     $scope.link = 'https://code-pilot.herokuapp.com'
                    }
                    $scope.select46 = function(){
                      $scope.title = 'The Forty-Six Open'
