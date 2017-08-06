@@ -24,7 +24,7 @@ var app = angular.module("app",["ngRoute"])
                    $scope.link = 'https://jackson-donovan-portfolio.herokuapp.com/'
                    $scope.selectMB = function(){
                      $scope.title = 'Music Box'
-                     $scope.description = 'A singer/song writer app that uses the Web Audio API. '
+                     $scope.description = 'A singer/song writer app that uses the Web Audio API. The Music Box is a project I will always consider 1% done. The idea of applying four chords over a set number of syllables has enticed me ever since I taught myself four chord songs on the piano. The Music Box makes music creation easy for both casual music lovers and aspiring musicians. Music is an art, but with with the advent of three chord, four chord and bass drop songs, its becoming much more of a predictable science. Im passionate about this idea and cant wait to create and shape "personal songs" and "personal albums".'
                      $scope.stack = 'AngularJS, Express, HBS, SQL'
                      $scope.link = 'https://the-music-box.herokuapp.com'
                    }
@@ -52,8 +52,8 @@ var app = angular.module("app",["ngRoute"])
                      $scope.stack = 'AngularJS, Express, Node, HBS, SQL'
                      $scope.link = 'https://tic-tac-toe-byjd.herokuapp.com/'
                    }
-                   $scope.selectMB = function(){
-                     $scope.title = 'Music Box'
+                   $scope.selectYOM = function(){
+                     $scope.title = 'Yacht Owners Meet'
                      $scope.description = 'A singer/song writer app that uses the Web Audio API'
                      $scope.stack = 'AngularJS, Express, Node, HBS, SQL'
                      $scope.link = 'the-music-box.herokuapp.com'
