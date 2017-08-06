@@ -50,7 +50,7 @@ var app = angular.module("app",["ngRoute"])
                      $scope.title = 'Tic Tac Toe'
                      $scope.description = 'The oldest game in the book. I plan to use Tic Tac Toe and Rock Paper Scissors as my gateway into data science. Im beyond interested in data science, and while web development is the first skill of being a computer scienist double threat, I cant help but day dream about making my own game that can learn and predict its opponents moves. This site may not may not contain machine learning yet, but be sure to enjoy a few rounds before my AI discourages you from playing it ever again.'
                      $scope.stack = 'AngularJS, Express, Node, HBS, SQL'
-                     $scope.link = 'the-music-box.herokuapp.com'
+                     $scope.link = 'https://tic-tac-toe-byjd.herokuapp.com/'
                    }
                    $scope.selectMB = function(){
                      $scope.title = 'Music Box'
