@@ -19,7 +19,7 @@ var app = angular.module("app",["ngRoute"])
                  })
                  .controller('galcontroller', function($scope){
                    $scope.title = 'Select A Project'
-                   $scope.description = "The projects range from simple single-user applications like card games, to applications that help people link up and meet eachother. These diverse projects show the balance between my personal interests and productive/commercial-based projects. This gallery will always be 1% done. I'm always looking for ideas to help strengthen, grow and flex my programming knowledge."
+                   $scope.description = "These projects range from simple single-user applications like card games, to applications that help people link up and meet eachother. These diverse projects show the balance between my personal interests and productive/commercial-based projects. This gallery will always be 1% done. I'm always looking for ideas to help strengthen, grow and flex my programming knowledge. Click on a project's icon to learn more about its stack and usage."
                    $scope.stack = 'AngularJS, Bootstrap, CSS'
                    $scope.link = 'https://jackson-donovan-portfolio.herokuapp.com/'
                    $scope.selectMB = function(){
@@ -30,7 +30,7 @@ var app = angular.module("app",["ngRoute"])
                    }
                    $scope.selectCP = function(){
                      $scope.title = 'Code Pilot'
-                     $scope.description = 'Teaching has always been rewarding for me. This project, with collaboration of two other developers, helps pair teachers and students who want to learn code. This is an important site for me personally because Ive had so many great mentors help me get through the harsh learning curve of back-end development. I had a lot of fun developing Code Pilot. Ill never forget this as the first time I implemented web sockets into a project. Using a chat app that I developed myself legitimately gave me goose bumps.'
+                     $scope.description = "Teaching has always been rewarding for me. This project, built in collaboration with two other developers, helps pair students, who want to learn code, with teachers, who want to be helpful. This site means a lot for me personally because I've had so many great mentors help me get through the harsh learning curve of back-end development. Through Code Pilots pair programming features, team work makes learning curves less daunting and rewards within reach."
                      $scope.stack = 'Web Sockets, HBS, jQuery Transitions, Express, SQL'
                      $scope.link = 'https://code-pilot.herokuapp.com'
                    }
@@ -42,7 +42,7 @@ var app = angular.module("app",["ngRoute"])
                    }
                    $scope.selectBJ = function(){
                      $scope.title = 'Blackjack'
-                     $scope.description = 'In Blackjack, players attempt to make their hand total reach, or get as close to, 21 as possible. If you go over 21, you lose. Similarly, if the dealer goes over 21, the dealer loses. Closest while remaining under 21 wins. This is my first ever website! Ever since I started learning code I knew that I wanted to program a game. Blackjack took a tremendous amount of logic. Luckily logic is my middle name. The cards were generated through a free Deck of Cards API, the rest was built with my most rudimentary understanding of Javascript and DOM manipulation. Play a few hands, see if you can reach the goal total.'
+                     $scope.description = 'This is my first ever website! Ever since I started learning code I knew that I wanted to program a game. In this game, both the dealer and the player attempt to score as close to 21 without going over. Blackjack took a tremendous amount of logic. The cards were generated through a free Deck of Cards API, the rest was built with my most rudimentary understanding of Javascript and DOM manipulation. Play a few hands, see if you can reach the goal total.'
                      $scope.stack = 'HTML, CSS, Javascript'
                      $scope.link = 'https://blackjack-game-128c2.firebaseapp.com/'
                    }
@@ -54,7 +54,7 @@ var app = angular.module("app",["ngRoute"])
                    }
                    $scope.selectYOM = function(){
                      $scope.title = 'Yacht Owners Meet'
-                     $scope.description = 'A singer/song writer app that uses the Web Audio API'
+                     $scope.description = "Music Box is a singer/song writer application using the Web Audio API. Users input lyrics, and the music box will supply the melody. The ultimate goal for Music Box is to learn the preferences of users and supply them with personal albums and songs. Music is an art, but with EDM and bass drops rising, after a quick look at sales figures or Youtube views, you can start to make a science of it. With Music Box, we will write and share interesting and fun songs with each other."
                      $scope.stack = 'AngularJS, Express, Node, HBS, SQL'
                      $scope.link = 'the-music-box.herokuapp.com'
                    }

@@ -24,4 +24,4 @@ app.listen(port,(req,res)=>{
 
 //48- chars or less
 
- // ' This is my first ever website! Ever since I started learning code I knew that I wanted to program a game. Blackjack took a tremendous amount of logic. Luckily logic is my middle name. The cards were generated through a free Deck of Cards API, the rest was built with my most rudimentary understanding of Javascript and DOM manipulation. Play a few hands, see if you can reach the goal total.'
+ 'This is my first ever website! Ever since I started learning code I knew that I wanted to program a game. In this game, both the dealer and the player attempt to score as close to 21 without going over. Blackjack took a tremendous amount of logic. The cards were generated through a free Deck of Cards API, the rest was built with my most rudimentary understanding of Javascript and DOM manipulation. Play a few hands, see if you can reach the goal total.'
