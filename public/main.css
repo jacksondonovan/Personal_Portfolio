@@ -36,18 +36,18 @@ html, body{
 }
 
 table{
-  border: 5px solid black;
+  border: 5px solid white;
   height:500px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 td{
-  border: 5px solid black;
+  border: 5px solid white;
   height:250px;
   width:100px;
 }
 .details{
-  border: 5px solid black;
+  border: 5px solid white;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
@@ -78,7 +78,8 @@ img{
   display:flex;
   justify-content: center;
   margin-top: 20px;
-  height:200px;
+  height:185px;
+  width:100%;
 }
 .quote h3{
   width:50%;
@@ -90,4 +91,7 @@ img{
   width:35px;
   height:35px;
   margin-bottom: -10px;
+}
+.margup p{
+  margin-top: 10px;
 }
