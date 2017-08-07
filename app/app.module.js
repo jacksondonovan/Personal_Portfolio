@@ -24,7 +24,7 @@ var app = angular.module("app",["ngRoute"])
                    $scope.link = 'https://jackson-donovan-portfolio.herokuapp.com/'
                    $scope.selectMB = function(){
                      $scope.title = 'Music Box'
-                     $scope.description = 'A singer/song writer app that uses the Web Audio API. The Music Box is a project I will always consider 1% done. The idea of applying four chords over a set number of syllables has enticed me ever since I taught myself four chord songs on the piano. The Music Box makes music creation easy for both casual music lovers and aspiring musicians. Music is an art, but with with the advent of three chord, four chord and bass drop songs, its becoming much more of a predictable science. Im passionate about this idea and cant wait to create and shape "personal songs" and "personal albums".'
+                     $scope.description = "Music Box is a singer/song writer application using the Web Audio API. Users input lyrics, and the music box will supply the melody. The ultimate goal for Music Box is to learn the preferences of users and supply them with personal albums and songs. Music is an art, but with EDM and bass drops rising, after a quick look at sales figures or Youtube views, you can start to make a science of it. With Music Box, we will write and share interesting and fun songs with each other."
                      $scope.stack = 'AngularJS, Express, HBS, SQL'
                      $scope.link = 'https://the-music-box.herokuapp.com'
                    }
@@ -36,7 +36,7 @@ var app = angular.module("app",["ngRoute"])
                    }
                    $scope.select46 = function(){
                      $scope.title = 'The Forty-Six Open'
-                     $scope.description = 'The 46 Open was a project completed during my time at the Galvanize Web Dev Immersive program. Between learning and coding, we all carved out time to see who the best ping pong player was. While everyone claimed to be the best, I sought out to seek who truly was the best. With a few other programmers, we created the 46 Open. This site aimed to pair and rank players. Along with helping the team with the back-end HBS and routing, I also created our rating algorithm (largely based on the ELO rating system used by the World Chess Foundation).'
+                     $scope.description = "The 46 Open was a project completed during my time at the Galvanize Web Dev Immersive program. Between learning and coding, we all made time to see who the best ping pong player was. While everyone claimed to be the best, I sought out to seek who truly was. So a team and I created the 46 Open. This site pairs and ranks Galvanize Ping Pong players. Along with helping the team with handle bars and routing, I also created our rating algorithm (Based on Chess' ELO rating system)."
                      $scope.stack = 'Handle Bars, Express, SQL'
                      $scope.link = 'https://infinite-shelf-75058.herokuapp.com/'
                    }
