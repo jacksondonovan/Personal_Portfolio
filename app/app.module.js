@@ -25,13 +25,13 @@ var app = angular.module("app",["ngRoute"])
                    $scope.selectMB = function(){
                      $scope.title = 'Music Box'
                      $scope.description = "Music Box is a singer/song writer application using the Web Audio API. Users input lyrics, and the music box will supply the melody. The ultimate goal for Music Box is to learn the preferences of users and supply them with personal albums and songs. Music is an art, but with EDM and bass drops rising, after a quick look at sales figures or Youtube views, you can start to make a science of it. With Music Box, we will write and share interesting and fun songs with each other."
-                     $scope.stack = 'AngularJS, Express, HBS, SQL'
+                     $scope.stack = 'AngularJS, Express, Handle Bars, SQL'
                      $scope.link = 'https://the-music-box.herokuapp.com'
                    }
                    $scope.selectCP = function(){
                      $scope.title = 'Code Pilot'
                      $scope.description = "Teaching has always been rewarding for me. This project, built in collaboration with two other developers, helps pair students, who want to learn code, with teachers, who want to be helpful. This site means a lot for me personally because I've had so many great mentors help me get through the harsh learning curve of back-end development. Through Code Pilots pair programming features, team work makes learning curves less daunting and rewards within reach."
-                     $scope.stack = 'Web Sockets, HBS, jQuery Transitions, Express, SQL'
+                     $scope.stack = 'Web Sockets, Handle Bars, jQuery Transitions, Express, SQL'
                      $scope.link = 'https://code-pilot.herokuapp.com'
                    }
                    $scope.select46 = function(){
@@ -48,13 +48,13 @@ var app = angular.module("app",["ngRoute"])
                    }
                    $scope.selectTT = function(){
                      $scope.title = 'Tic Tac Toe'
-                     $scope.description = 'The oldest game in the book. I plan to use Tic Tac Toe and Rock Paper Scissors as my gateway into data science. Im beyond interested in data science, and while web development is the first skill of being a computer scienist double threat, I cant help but day dream about making my own game that can learn and predict its opponents moves. This site may not may not contain machine learning yet, but be sure to enjoy a few rounds before my AI discourages you from playing it ever again.'
-                     $scope.stack = 'AngularJS, Express, Node, HBS, SQL'
+                     $scope.description = "The oldest game in the book. I plan to use Tic Tac Toe and Rock Paper Scissors as my gateway into data science. I'm beyond interested in data science, and while web development is my first skill of being a computer scienist double threat, I can't help but day dream about making my own game that can learn and predict its opponent's moves. This site may not may not contain machine learning yet, but be sure to enjoy a few rounds before my AI discourages you from playing it ever again."
+                     $scope.stack = 'CSS Javascript'
                      $scope.link = 'https://tic-tac-toe-byjd.herokuapp.com'
                    }
                    $scope.selectYOM = function(){
                      $scope.title = 'Yacht Owners Meet'
-                     $scope.description = "Music Box is a singer/song writer application using the Web Audio API. Users input lyrics, and the music box will supply the melody. The ultimate goal for Music Box is to learn the preferences of users and supply them with personal albums and songs. Music is an art, but with EDM and bass drops rising, after a quick look at sales figures or Youtube views, you can start to make a science of it. With Music Box, we will write and share interesting and fun songs with each other."
+                     $scope.description = "A stab at potentially the most niche dating service. Many Americans own boats but it can be challenging to commit time and resources to maintaining them. Yacht Owners Meet finds out who, in a specified area, is willing to trade in an unused boat for shared ownership in a yacht. If enough people in the area anonymously agree, they are all notified and the boat selling and buying process can begin. Once completed, these owners can meet on their collectively owned yacht."
                      $scope.stack = 'AngularJS, Express, Node, HBS, SQL'
                      $scope.link = "https://yacht-owners-meet.herokuapp.com"
                    }
