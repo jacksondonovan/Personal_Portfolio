@@ -47,10 +47,10 @@ var app = angular.module("app",["ngRoute"])
                      $scope.link = 'https://blackjack-game-128c2.firebaseapp.com'
                    }
                    $scope.selectTT = function(){
-                     $scope.title = 'Tic Tac Toe'
-                     $scope.description = "The oldest game in the book. I plan to use Tic Tac Toe and Rock Paper Scissors as my gateway into data science. I'm beyond interested in data science, and while web development is my first skill of being a computer scienist double threat, I can't help but day dream about making my own game that can learn and predict its opponent's moves. This site may not may not contain machine learning yet, but be sure to enjoy a few rounds before my AI discourages you from playing it ever again."
-                     $scope.stack = 'CSS Javascript'
-                     $scope.link = 'https://tic-tac-toe-byjd.herokuapp.com'
+                     $scope.title = 'Multilingual Hangman'
+                     $scope.description = "A bilingual study guide. I plan to use Hangman as my gateway into data science. I'm beyond interested in data science, and while web development is my first skill of being a computer scienist double threat, I can't help but day dream about making my own game that can learn and predict its opponent's moves. This site may not may not contain machine learning yet, but be sure to enjoy a few rounds before my AI discourages you from playing it ever again."
+                     $scope.stack = 'AngularJS'
+                     $scope.link = 'https://multilingual-hangman.herokuapp.com'
                    }
                    $scope.selectYOM = function(){
                      $scope.title = 'Yacht Owners Meet'
